@@ -10,6 +10,6 @@ public class TestSuit extends BaseTest{
     public void toVerifyUserShouldBERegisterSuccessfully() {
         homepage.toVerifyUserCanOpenRegisterPageSuccessfully();// To open register page
         registerPage.registrationDetails(); // To enter details in registration page
-        registerResult.toVerifyUserShouldBeRegisterSuccessfully();// to verify
+        registerResult.toVerifyUserShouldBeRegisterSuccessfully();// to verify the results are matching with the actual
     }
 }

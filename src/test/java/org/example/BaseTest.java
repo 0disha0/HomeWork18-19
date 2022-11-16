@@ -7,12 +7,11 @@ public class BaseTest {
     DriverManager driverManager =new DriverManager();
 
     @BeforeMethod
-    public void setup(){
+    public void setup(){//calling the method to open a browser
         driverManager.openBrowser();
     }
     @AfterMethod
-    public void tearDown() {
-
+    public void tearDown() {// calling the browser to close the web browser
         driverManager.closeBrowser();
     }
 }

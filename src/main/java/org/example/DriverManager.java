@@ -12,7 +12,7 @@ public class DriverManager extends BasePage {
         driver.manage().window().maximize();  // It returns instance of option interface and returns instance of window interface
     }
 
-    public static void closeBrowser() {
+    public static void closeBrowser() {//to close the web browser
         driver.quit();
     }
 }

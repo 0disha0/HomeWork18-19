@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class Homepage extends Utils {
 
     //private By _registerPage= By.xpath("//a[@href=\"/register?returnUrl=%2F\"]");
-    private By _registerPage= By.className("ico-register");
+    private By _registerPage= By.className("ico-register");//
 
    // private By _searchField = By.linkText("search-box-text ui-autocomplete-input");
 
