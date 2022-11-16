@@ -8,7 +8,8 @@ public class TestSuit extends BaseTest{
 
     @Test
     public void toVerifyUserShouldBERegisterSuccessfully() {
-
-
+        homepage.toVerifyUserCanOpenRegisterPageSuccessfully();// To open register page
+        registerPage.registrationDetails(); // To enter details in registration page
+        registerResult.toVerifyUserShouldBeRegisterSuccessfully();// to verify
     }
 }
