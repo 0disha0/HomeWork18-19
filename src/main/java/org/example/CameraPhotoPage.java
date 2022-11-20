@@ -14,13 +14,12 @@ public class CameraPhotoPage extends Utils{
         for(WebElement element :productTitle){
             System.out.println(element.getText());
         }
-//
-//        List<String> studentsNameList = new ArrayList<>();
-//        studentsNameList.add("Daishu");
-//        studentsNameList.add("Ganddu");
-//        for (String s : studentsNameList) {
-//            System.out.println(s);
-//        }
 
+        List<String> studentsNameList = new ArrayList<>();
+        studentsNameList.add("Daishu");
+        studentsNameList.add("Ganddu");
+        for (String s : studentsNameList) {
+            System.out.println(s);
+        }
     }
 }
