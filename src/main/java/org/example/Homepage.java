@@ -6,6 +6,7 @@ public class Homepage extends Utils {
 
     //private By _registerPage= By.xpath("//a[@href=\"/register?returnUrl=%2F\"]");
     private By _registerPage= By.className("ico-register");//
+    private By _electronics = By.linkText("Electronics");
 
    // private By _searchField = By.linkText("search-box-text ui-autocomplete-input");
 
@@ -14,5 +15,9 @@ public class Homepage extends Utils {
     }
     public void toVerifyUserCanUseTheFeatureOfSearchField(){
        // typeText(_searchField,"if you wait");
+    }
+    public  void navigateElectronicPage(){
+       clickButton(_electronics);
+
     }
 }
